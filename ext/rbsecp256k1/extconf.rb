@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'mini_portile2'
+require "/var/www/discourse/plugins/discourse-siwe/gems/#{RUBY_VERSION}/gems/mini_portile2-2.7.0/lib/mini_portile2"
 require 'mkmf'
 require 'zip'
 
